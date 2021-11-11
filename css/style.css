@@ -15,6 +15,9 @@ body {
   --blueColor: #2c4755;
 }
 
+html {
+  scroll-behavior: smooth; /* لنقل بي انميشن سلسل */
+}
   /* Services Code */
   .fas, .fab, .far {
     color: var(--lenColor);
