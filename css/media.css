@@ -1,0 +1,41 @@
+@media (max-width: 800px) {
+  .title-box {margin-bottom: 60px;}  /* All code */
+  .title-box h2 {font-size: 70px;}
+                  /* Start My services */
+  .services {padding-bottom: 60px;}
+    .services .container .father .text p {width: 75%;}
+    .container .father { width: 80%;}
+                  /* End My services */
+                    /* Start About */
+  .about {padding-bottom: 60px;}
+    .about .container {display: block;}
+      .about .container .image {
+        width: 200px;
+        height: 325px;
+      }
+        .about .container .image::before {
+          top: -20px;
+          right: -70px;
+          border-left-width: 60px;
+          border-bottom-width: 60px;
+          width: 50px;
+          height: 200px;
+        }
+        .about .container .image::after {
+          top: -25px;
+          right: -50px;
+          width: 50px;
+          height: 350px;
+          border-left-width: 65px;
+        }
+      .about .container .text p:first-child {margin-top: 30px; margin-bottom: 0;}
+      .about .container .text hr {margin-top: 30px; margin-bottom: 30px;}
+                    /* End About */
+                    /* Start Call me */
+  .contact {padding-bottom: 60px;}
+    .contact .meet p:last-child {margin-top: 30px;}
+    .contact .meet a {font-size: 25px;}
+    .contact .meet p:last-child .icone {display: block;}
+                    /* End Call me */
+
+}
